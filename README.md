@@ -1,5 +1,5 @@
 <h1 align="center">
-Code Challenge - Micro-services with Node.js and Apache Kafka
+Code Challenge - Micro-service with Node.js and Kafka
 </h1>
 
 <p align="center">In this code challenge we developed a REST API in Node.js that integrates with a micro-service using Apache Kafka.</p>
