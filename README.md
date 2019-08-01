@@ -5,7 +5,7 @@ Code Challenge - Micro-service with Node.js and Kafka
 <p align="center">In this code challenge we developed a REST API in Node.js that integrates with a micro-service using Apache Kafka.</p>
 
 <p align="center">
-  <a href="https://github.com/Rocketseat/youtube-challenge-electron-tray/graphs/contributors">
+  <a href="https://github.com/Rocketseat/youtube-challenge-node-kafka/graphs/contributors">
     <img src="https://img.shields.io/github/contributors/rocketseat/youtube-challenge-node-kafka?color=%237159c1&logoColor=%237159c1&style=flat" alt="Contributors">
   </a>
   <a href="https://opensource.org/licenses/MIT">
@@ -23,8 +23,8 @@ Code Challenge - Micro-service with Node.js and Kafka
 ## What can be better?
 
 - Consumer slow to start;
-- Add some framework like Molecular;
-- Kafka maybe can receive a specific responde to a produced message (something like `expectResponse`);
+- Add some framework like `Molecular`;
+- Kafka may receive a specific responde to a produced message (something like `expectResponse`);
 
 ## Dependencies
 
