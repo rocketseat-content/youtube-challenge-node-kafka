@@ -1,5 +1,5 @@
 <h1 align="center">
-Code Challenge - Micro-services with Node.js and Apache Kafka
+Code Challenge - Micro-service with Node.js and Kafka
 </h1>
 
 <p align="center">In this code challenge we developed a REST API in Node.js that integrates with a micro-service using Apache Kafka.</p>
@@ -9,7 +9,7 @@ Code Challenge - Micro-services with Node.js and Apache Kafka
     <img src="https://img.shields.io/github/contributors/rocketseat/youtube-challenge-node-kafka?color=%237159c1&logoColor=%237159c1&style=flat" alt="Contributors">
   </a>
   <a href="https://opensource.org/licenses/MIT">
-    <img src="https://img.shields.io/github/license/rocketseat/youtube-challenge-electron-tray?color=%237159c1&logo=mit" alt="License">
+    <img src="https://img.shields.io/github/license/rocketseat/youtube-challenge-node-kafka?color=%237159c1&logo=mit" alt="License">
   </a>
 </p>
 
