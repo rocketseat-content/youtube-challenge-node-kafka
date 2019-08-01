@@ -28,7 +28,7 @@ Code Challenge - Micro-service with Node.js and Kafka
 
 ## Dependencies
 
-- [Node.js](https://nodejs.org/en/) 8.0.0 ou >
+- [Node.js](https://nodejs.org/en/) >= 8.0.0
 - [Yarn](https://yarnpkg.com/pt-BR/docs/install)
 - [Docker](https://docs.docker.com/install/)
 
