@@ -1,31 +1,48 @@
-# Micro-serviço com Node.js
+<h1 align="center">
+Code Challenge - Micro-services with Node.js and Apache Kafka
+</h1>
 
-- Utilizando Kafka;
-- Utilizando Node;
+<p align="center">In this code challenge we developed a REST API in Node.js that integrates with a micro-service using Apache Kafka.</p>
 
-## Aplicações
+<p align="center">
+  <a href="https://github.com/Rocketseat/youtube-challenge-electron-tray/graphs/contributors">
+    <img src="https://img.shields.io/github/contributors/rocketseat/youtube-challenge-electron-tray?color=%237159c1&logoColor=%237159c1&style=flat" alt="Contributors">
+  </a>
+  <a href="https://opensource.org/licenses/MIT">
+    <img src="https://img.shields.io/github/license/rocketseat/youtube-challenge-electron-tray?color=%237159c1&logo=mit" alt="License">
+  </a>
+</p>
 
-- API principal (Station);
-- Geração de certificado;
+<hr>
 
-## Fluxo
+## Participants
 
-- API principal envia uma mensagem pro serviço de certificado para gerar o certificado;
-- Micro-serviço de certificado devolve uma resposta (síncrona/assíncrona);
+| [<img src="https://avatars0.githubusercontent.com/u/2254731?s=460&v=4" width="75px;"/>](https://github.com/diego3g) | [<img src="https://avatars2.githubusercontent.com/u/16545335?s=460&v=4" width="75px;"/>](https://github.com/pellizzetti) |
+| :-----------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------: |
+|                                       [Diego Fernandes](https://github.com/diego3g)                                        |                                      [Guilherme Pellizzetti](https://github.com/pellizzetti)                                       |
+## What can be better?
 
-Se conseguir síncrona/assíncrona:
+- Consumer slow to start;
+- Add some framework like Molecular;
+- Kafka maybe can receive a specific responde to a produced message (something like `expectResponse`);
 
-- Receber uma resposta assíncrona de quando o e-mail com o certificado foi enviado;
+## Dependencies
 
-## O que sabemos?
+- [Node.js](https://nodejs.org/en/) 8.0.0 ou >
+- [Yarn](https://yarnpkg.com/pt-BR/docs/install)
+- [Docker](https://docs.docker.com/install/)
 
-- REST (latência);
-- Redis / RabbitMQ / **Kafka**;
+## Getting started
 
-- Nubank, Uber, Paypal, Netflix;
+1. Clone this repository;
+2. Move to the appropriate directory;<br />
+3. Run `yarn` to install dependencies.<br />
+4. Run `yarn start`.
 
-## O que podemos estudar
+## Contributing
 
-- Consumer demorando para subir;
-- Frameworks especifícos para microservices (Molecular);
-- _expectResponse_ (Algo assim).
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
